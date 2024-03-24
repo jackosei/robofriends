@@ -1,0 +1,27 @@
+.cardList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	padding: 16px;
+	margin: 8px;
+	background-color: lightblue;
+	width: auto;
+	height: 280px;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 5px 5px 5px #16191acb;
+
+	img {
+		width: auto;
+		height: 160px;
+	}
+
+	&:hover {
+		transform: scale(1.03);
+		box-shadow: 5px 5px 5px #98b4bdcb;
+		transition: all linear 0.3s;
+	}
+}
